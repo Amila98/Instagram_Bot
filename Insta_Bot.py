@@ -116,7 +116,7 @@ def perform_actions(username, password):
 # Main program
 if __name__ == "__main__":
     # Load Instagram accounts
-    accounts = load_accounts("C:/Users/amila/Desktop/Instabot/accounts.txt")
+    accounts = load_accounts("path to your txt file")
 
     # Iterate through accounts and perform actions for each account
     for username, password in accounts:
